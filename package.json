@@ -36,7 +36,6 @@
     "formidable": "^3.5.4",
     "multer": "^2.0.2",
     "nativewind": "^4.1.23",
-    "next": "^15.5.2",
     "pdf-parse": "^1.1.1",
     "pdfjs-dist": "^5.4.54",
     "react": "19.0.0",
