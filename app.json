@@ -1,0 +1,40 @@
+{
+  "expo": {
+    "name": "PDFBot",
+    "slug": "pdfbot",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/PDFBot.png",
+    "userInterfaceStyle": "light",
+    "newArchEnabled": true,
+    "scheme": "pdfbot",
+    "splash": {
+      "image": "./assets/PDFBot.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#6366F1"
+    },
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.dillontrembath.pdfbot"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/PDFBot.png",
+        "backgroundColor": "#6366F1"
+      },
+      "edgeToEdgeEnabled": true
+    },
+    "web": {
+      "favicon": "./assets/PDFBot.png",
+      "bundler": "metro",
+      "output": "server"
+    },
+    "plugins": [
+      "expo-router",
+      "expo-font"
+    ],
+    "experiments": {
+      "typedRoutes": true
+    }
+  }
+}
